@@ -1,8 +1,12 @@
-<!DOCTYPE html>
 <?php 
-  Sprofession="Менеджер по продажам";
+  $_name="Александров Сергей Иванович";
+  $profession="Менеджер по продажам";
+  $_city="Москва";
+  $_country="Россия";
+  $_mail="aleksandrovsergei@maxbox.com";
+  $_phone="+79001001011";
   $experience_one="Объем продаж.";
-  $progress_one="	Развил с нуля оптовый канал продаж, что позволило увеличить объем продаж на 40%.";
+  $progress_one="Развил с нуля оптовый канал продаж, что позволило увеличить объем продаж на 40%.";
   $experience_two="Активная клиентская база";
   $progress_two="Увеличил количество активных клиентов с 400 до 600 за счет четкой организации работы команды.";
   $experience_three="Дебиторская задолженность";
@@ -38,14 +42,14 @@
         <div class="w3-display-container">
           <img src="https://imgfon.ru/Images/Details_img_880px/Animals/glaza-belyy_fon-kotik-morda-polosatyy.webp" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Имя</h2>
+            <h2><? =$_name ?></h2>
           </div>
         </div>
         <div class="w3-container">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><? =$profession ?></p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Город, страна</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>E-mail</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>Телефон</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i><? =$_city ?>, <? =$_country ?></p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><? =$_mail ?></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><? =$_phone ?></p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
